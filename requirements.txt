@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+Pillow
+google-generativeai
+pandas
+PyPDF2
+chromadb
+pdf2image
