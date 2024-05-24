@@ -41,6 +41,7 @@ Open your web browser and go to http://localhost:8501.
 4. View the extracted invoice details and download the generated Excel file.
 
 
-
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
    
 
