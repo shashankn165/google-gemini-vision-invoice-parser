@@ -42,12 +42,11 @@ def json_to_excel(json_data, output_filename="output_inv_data.xlsx"):
 
 # Streamlit UI Code (Assuming it's correct and works as intended)
 # Initialize our Streamlit app
-st.set_page_config(page_title="Multi Language Invoice Parser")
-st.header("Multi Language Invoice Parser")
+st.set_page_config(page_title="Invoice Extractor - Excel and JSON")
+st.header("Invoice Extractor - Excel and JSON")
 
 input_prompt = """
-You are an expert in understanding invoices. We will upload an image as invoice and you will have to answer any questions based on the uploaded invoice image.
-
+You are an expert in understanding invoices. We will upload invoice image and you will generate JSON and Excel output
 **Output Format:**
 1. **JSON Output:**  Extract vendor name, invoice number, invoice date, invoice amount, Line number, Line description, quantity, amount, tax rate from this invoice image. If there are multiple lines then repeat the header information and provide output in JSON format.
 
